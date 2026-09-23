@@ -32,7 +32,7 @@ RHEL 9 系内核（5.14 回移植内核）做了编译与 API 兼容修复，并
 需要 root 权限及可用的网络（用于安装依赖）。
 
 ```bash
-git clone <本仓库地址> aic8800-rhel9-driver
+git clone git@github.com:hengne/aic8800-rhel9-driver.git
 cd aic8800-rhel9-driver
 sudo ./install.sh
 ```

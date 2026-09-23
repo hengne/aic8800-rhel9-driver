@@ -31,8 +31,20 @@ RHEL 9 系内核（5.14 回移植内核）做了编译与 API 兼容修复，并
 
 需要 root 权限及可用的网络（用于安装依赖）。
 
+**最快方式——下载 v1.0.0 一键安装脚本**：
+
 ```bash
-git clone git@github.com:hengne/aic8800-rhel9-driver.git
+curl -fL https://github.com/hengne/aic8800-rhel9-driver/releases/download/v1.0.0/release-install.sh -o /tmp/release-install.sh
+sudo bash /tmp/release-install.sh
+```
+
+脚本会自动优先安装匹配当前内核的预编译 RPM，不匹配时改用 DKMS 包。
+也提供 [kmod / dkms RPM 及源码包下载](https://github.com/hengne/aic8800-rhel9-driver/releases/tag/v1.0.0)。
+
+**从源码安装**：
+
+```bash
+git clone https://github.com/hengne/aic8800-rhel9-driver.git
 cd aic8800-rhel9-driver
 sudo ./install.sh
 ```

@@ -8,7 +8,7 @@
 Module.symvers
 modules.order
 .tmp_versions/
-aic8800_fdrv
-aic_load_fw
-aic_zlp_quirk
+aic8800_fdrv/aic8800_fdrv
+aic_load_fw/aic_load_fw
+aic_zlp_quirk/aic_zlp_quirk
 *.log

@@ -1,0 +1,14 @@
+*.o
+*.ko
+*.ko.xz
+*.mod
+*.mod.c
+*.cmd
+.symversions
+Module.symvers
+modules.order
+.tmp_versions/
+aic8800_fdrv
+aic_load_fw
+aic_zlp_quirk
+*.log

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Copyright (c) 2026 Hengne Li <lihengne@hotmail.com>
+# Commercial use requires a license; see COMMERCIAL-LICENSE.md
 %global debug_package %{nil}
 %{!?kver:%global kver %(uname -r)}
 %global kmoddir kernel/drivers/net/wireless/aic8800

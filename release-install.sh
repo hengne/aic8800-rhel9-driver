@@ -1,5 +1,9 @@
 #!/bin/bash
 #
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+# Copyright (c) 2026 Hengne Li <lihengne@hotmail.com>
+# Commercial use requires a license; see COMMERCIAL-LICENSE.md
+#
 # AIC8800 USB WiFi6 driver - one-click installer for RHEL/AlmaLinux/Rocky 9
 # Downloads and installs the v1.0.0 release packages from GitHub.
 #

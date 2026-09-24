@@ -160,7 +160,32 @@ aic8800-rhel9-driver/
     └── aic_zlp_quirk/    # 蓝牙兼容模块
 ```
 
-## 许可与免责声明
+## License 许可证
 
-- 驱动及固件源码沿用上游许可证（GPL），版权归原作者所有
-- 本仓库仅用于学习与个人硬件适配，不对第三方固件做任何担保
+- **Kernel driver (`drivers/`)**: GNU General Public License v2.0 —
+  Copyright RivieraWaves and AICSemi. See [`LICENSE`](LICENSE).
+- **Firmware (`fw/`)**: proprietary binaries of AICSemi.
+- **RHEL 9 adaptation, packaging scripts, specs, and documentation**:
+  Copyright (c) 2026 **Hengne Li** <lihengne@hotmail.com>, licensed under the
+  PolyForm Noncommercial 1.0.0 license. See
+  [`COMMERCIAL-LICENSE.md`](COMMERCIAL-LICENSE.md) for the full terms,
+  governing law, and arbitration clause.
+
+## Commercial Use and Support 商用与支持
+
+Personal, educational, research, and other noncommercial use is free.
+**Commercial use of the original portions — including bundling in a product
+offered for sale — requires a commercial license from the author.**
+
+For commercial licensing and paid support (priority support, warranty, custom
+development, prebuilt and signed packages), please contact:
+
+**Hengne Li** — <lihengne@hotmail.com>
+
+Using the GPL-licensed driver in a commercial environment remains permitted
+under the GPL-2.0.
+
+## Disclaimer 免责声明
+
+The software is provided "as is", without warranty of any kind. See the license
+files for the full warranty disclaimer and limitation of liability.
